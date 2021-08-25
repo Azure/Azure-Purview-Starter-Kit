@@ -4,17 +4,16 @@ Hi Purview folks
 
 Good day ! Today I'm going to talk about getting started and being up and running with a fresh new (clean install) Azure Purview deployment in a matter of minutes.
 
-Here's an updated post giving you detailed steps on how to get started with Azure Purview and be up and running getting to the stage of running your first scan successfully on various types of Azure data sources. Here is the link to Purview Starter Kit download.
+Here's an updated post giving you detailed steps on how to get started with Azure Purview and be up and running getting to the stage of running your first scan successfully on various types of Azure data sources. HTML View of this article [Original Link](https://techcommunity.microsoft.com/t5/azure-purview/getting-started-with-azure-purview-using-purview-starter-kit/m-p/2671432) 
 
-
-*Materials/Artefacts*
+**Materials/Artefacts**
 
 1) Purview Starter Kit V5 (part of this Git Repo)
 
 2) [Watch Video](https://youtu.be/8BG4_i1kbzE) Full video demonstrating entire set of steps, starting from executing the Purview starter kit; setting correct parameters, logging in to the Azure portal, creating a new sample Azure Data Lake Storage Gen2, an Azure Blob Storage account and one Azure Data Factory to copy sample data between the Blob and ADLSGen2 storage accounts and show sample lineage information.
 
 
-*Steps To Execute*
+**Steps To Execute**
 
 1) Extract the attached (PurviewStarterKitV5 to a folder of your choice,
 
@@ -47,9 +46,9 @@ For example: Following is a valid command to execute the attached script. Be sur
 -Location "East US"
  
 
-Some sample PowerShell output while executing this script is attached to this post. 
-
 Watch the video below for a full walkthrough ! Let me know your experience or any questions in the comments below.
+
+https://youtu.be/8BG4_i1kbzE
 
 ## Contributing
 
