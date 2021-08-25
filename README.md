@@ -1,4 +1,4 @@
-# Project
+# Project : Azure Purview Starter Kit Using PowerShell Commands & Purview API
 
 Hi Purview folks 
 
@@ -8,7 +8,7 @@ Here's an updated post giving you detailed steps on how to get started with Azur
 
 **Materials/Artefacts**
 
-1) Purview Starter Kit V5 (part of this Git Repo)
+1) [Purview Starter Kit V5](https://github.com/Azure/Azure-Purview-Starter-Kit/blob/main/PurviewStarterKitV5.zip) (part of this Git Repo)
 
 2) [Watch Video](https://youtu.be/8BG4_i1kbzE) Full video demonstrating entire set of steps, starting from executing the Purview starter kit; setting correct parameters, logging in to the Azure portal, creating a new sample Azure Data Lake Storage Gen2, an Azure Blob Storage account and one Azure Data Factory to copy sample data between the Blob and ADLSGen2 storage accounts and show sample lineage information.
 
