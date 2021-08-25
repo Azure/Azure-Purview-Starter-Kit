@@ -23,20 +23,20 @@ Here's an updated post giving you detailed steps on how to get started with Azur
 
 Note : Before you run the PowerShell scripts to bootstrap the catalog, get the values of the following arguments to use in the scripts:
 
-*TenantID:* In the Azure portal, select Azure Active Directory. In the Manage section of the left navigation pane, select Properties. Then select the copy icon for Tenant ID to save the value to your clipboard. Paste the value in a text editor for later use.
+-  *TenantID:* In the Azure portal, select Azure Active Directory. In the Manage section of the left navigation pane, select Properties. Then select the copy icon for Tenant ID to save the value to your clipboard. Paste the value in a text editor for later use.
 
-*SubscriptionID:* In the Azure portal, search for and select the name of the Azure Purview instance that you created as a prerequisite. Select the Overview section and save the GUID for the Subscription ID.
+-  *SubscriptionID:* In the Azure portal, search for and select the name of the Azure Purview instance that you created as a prerequisite. Select the Overview section and save the GUID for the Subscription ID.
 
-*CatalogName:* The name of the Azure Purview account. Note that CatalogName is the name of your purview account as well as the Purview MSI that gets created automatically. You will need this name to add "reader" role permission on your Purview MSI in order to successfully set up and scan your data sources.
+-  *CatalogName:* The name of the Azure Purview account. Note that CatalogName is the name of your purview account as well as the Purview MSI that gets created automatically. You will need this name to add "reader" role permission on your Purview MSI in order to successfully set up and scan your data sources.
 CatalogResourceGroupName: The name of the resource group in which you created your Azure Purview account.
 
-*Location:* The region where your Purview account and resource groups will be created. Be sure to modify the region in purview_template.json file as well. Regions supported by Purview are : 
+-  *Location:* The region where your Purview account and resource groups will be created. Be sure to modify the region in purview_template.json file as well. Regions supported by Purview are : 
 eastus2euap,eastus,westeurope,southeastasia,canadacentral,southcentralus,brazilsouth,centralindia,uksouth,australiaeast,northeurope,westcentralus,westus2,eastus2
 
 For example: Following is a valid command to execute the attached script. Be sure to use only [ a-z OR A-Z OR 0-9 ] characters while supplying the ResourceGroup and CatalogName parameters. 
 
  
-```powershell
+```PowerShell
  .\RunStarterKitFullAuto.ps1 `
 -CatalogName ARIBANPURVIEW20210999 `
 -TenantId 72f976887688bf-86f1-41af-91ab-2d78798c9d011db47 `
@@ -47,8 +47,7 @@ For example: Following is a valid command to execute the attached script. Be sur
 ```
 
 Watch the video below for a full walkthrough ! Let me know your experience or any questions in the comments below.
-
-https://youtu.be/8BG4_i1kbzE
+[![Datasources_Purview](https://user-images.githubusercontent.com/13808986/130713059-b67098a5-f1a0-43ea-ac3e-249e23b5b2ac.PNG)](https://youtu.be/8BG4_i1kbzE)
 
 ## Contributing
 
