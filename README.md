@@ -36,7 +36,7 @@ eastus2euap,eastus,westeurope,southeastasia,canadacentral,southcentralus,brazils
 For example: Following is a valid command to execute the attached script. Be sure to use only [ a-z OR A-Z OR 0-9 ] characters while supplying the ResourceGroup and CatalogName parameters. 
 
  
-
+```powershell
  .\RunStarterKitFullAuto.ps1 `
 -CatalogName ARIBANPURVIEW20210999 `
 -TenantId 72f976887688bf-86f1-41af-91ab-2d78798c9d011db47 `
@@ -44,7 +44,7 @@ For example: Following is a valid command to execute the attached script. Be sur
 -ResourceGroup ariban20210999 `
 -CatalogResourceGroup managed-rg-aribanpurview20210999 `
 -Location "East US"
- 
+```
 
 Watch the video below for a full walkthrough ! Let me know your experience or any questions in the comments below.
 
