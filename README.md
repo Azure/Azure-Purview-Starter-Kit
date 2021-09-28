@@ -1,4 +1,4 @@
-# Project : Azure Purview Starter Kit Using PowerShell Commands & Purview API
+# Project : Azure Purview Starter Kit Using PowerShell
 
 Hi Purview folks 
 
