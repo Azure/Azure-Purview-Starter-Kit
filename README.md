@@ -38,12 +38,12 @@ For example: Following is a valid command to execute the attached script. Be sur
  
 ```PowerShell
  .\RunStarterKitFullAuto.ps1 `
--CatalogName ARIBANPURVIEW20210999 `
--TenantId 72f976887688bf-86f1-41af-91ab-2d78798c9d011db47 `
--SubscriptionId 8c2c7768768b23-848d-40fe-b817-69786780d79ad9dfd `
--ResourceGroup ariban20210999 `
--CatalogResourceGroup managed-rg-aribanpurview20210999 `
--Location "East US"
+ -CatalogName PVAB20211001 `
+ -Location centralindia `
+ -TenantId 72123131f-8221-421f-11ab-2d7123123b47 `
+ -SubscriptionId f13121bf-f2f0-4e61-8ea9-98329d1cdccf `
+ -ResourceGroup PVAB202110RG `
+ -CatalogResourceGroup PVAB202110RGMG
 ```
 
 Watch the video below for a full walkthrough ! Let me know your experience or any questions in the comments below.
