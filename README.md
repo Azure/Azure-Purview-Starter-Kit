@@ -2,9 +2,9 @@
 
 Hi Purview folks 
 
-Good day ! Today I'm going to talk about getting started and being up and running with a fresh new (clean install) Azure Purview deployment in a matter of minutes.
+Good day ! Today I'm going to talk about getting started and being up and running with a fresh clean install of Azure Purview deployment in a matter of minutes.
 
-Here's an updated post giving you detailed steps on how to get started with Azure Purview and be up and running getting to the stage of running your first scan successfully on various types of Azure data sources. [HTML View](https://techcommunity.microsoft.com/t5/azure-purview/getting-started-with-azure-purview-using-purview-starter-kit/m-p/2671432) 
+Here's an updated post giving you detailed steps on how to get started with Azure Purview and be up and running with Purview in less than 5 minutes on various types of Azure data sources! [HTML View](https://techcommunity.microsoft.com/t5/azure-purview/getting-started-with-azure-purview-using-purview-starter-kit/m-p/2671432) 
 
 **Materials/Artefacts**
 
