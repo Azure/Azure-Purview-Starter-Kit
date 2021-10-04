@@ -15,7 +15,7 @@ Here's an updated post giving you detailed steps on how to get started and be up
 
 **Steps To Execute**
 
-1) Extract the attached (PurviewStarterKitV5 to a folder of your choice,
+1) Extract the attached [Purview Starter Kit V5](https://github.com/Azure/Azure-Purview-Starter-Kit/blob/main/PurviewStarterKitV5.zip) to a folder of your choice,
 
 2) Then open PowerShell as administrator by right clicking in the same folder, and navigate to the folder where PurviewStarterKitV5 was extracted.
 
