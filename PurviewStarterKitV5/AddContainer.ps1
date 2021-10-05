@@ -2,7 +2,8 @@
 Param(
   [Parameter(Mandatory=$true,Position=1)] [string] $StorageAccountName,
   [Parameter(Mandatory=$True,Position=2)] [string] $FilesystemName,
-  [Parameter(Mandatory=$True,Position=3)] [string] $AccessKey
+  [Parameter(Mandatory=$True,Position=3)] [string] $AccessKey,  
+  [Parameter(Mandatory=$True,Position=4)] [string] $HierarchicalNamespace
 )
 
 # Rest documentation:
@@ -50,8 +51,11 @@ $headers = @{"x-ms-date"=$date}
 $headers.Add("x-ms-version","2018-11-09")
 $headers.Add("Authorization",$authHeader)
 
-$URI = "https://$StorageAccountName.dfs.core.windows.net/" + $FilesystemName + "?resource=filesystem"
-
+if ($EnableHierarchicalNamespace -eq $true) {
+  $URI = "https://$StorageAccountName.dfs.core.windows.net/" + $FilesystemName + "?resource=filesystem"
+} else {
+  $URI = "https://$StorageAccountName.blob.core.windows.net/" + $FilesystemName + "?resource=filesystem"
+}
 Try {
     Invoke-RestMethod -method $method -Uri $URI -Headers $headers # returns empty response
 }

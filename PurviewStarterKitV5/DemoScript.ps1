@@ -254,7 +254,10 @@ function New-AzureStorageDemoAccount (
 
         if ($EnableHierarchicalNamespace -eq $true) {
             $accessKey = GetAzureStorageConnectionString -AccountName $AccountName -ResourceGroup $ResourceGroup -OnlyAccessKey
-            .\AddContainer.ps1 -StorageAccountName $AccountName -FilesystemName $rootContainer -AccessKey $accessKey
+            .\AddContainer.ps1 -StorageAccountName $AccountName -FilesystemName $rootContainer -AccessKey $accessKey -HierarchicalNamespace $EnableHierarchicalNamespace
+        } else {
+            $accessKey = GetAzureStorageConnectionString -AccountName $AccountName -ResourceGroup $ResourceGroup -OnlyAccessKey
+            .\AddContainer.ps1 -StorageAccountName $AccountName -FilesystemName $rootContainer2 -AccessKey $accessKey -HierarchicalNamespace $EnableHierarchicalNamespace
         }
     }
     catch {
