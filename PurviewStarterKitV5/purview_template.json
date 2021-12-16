@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "resources": [
+    {
+      "name": "PURVIEW_ACCOUNT_NAME_CHANGE_BEFORE_RUNNING", 
+      "type": "Microsoft.Purview/accounts",
+      "apiVersion": "2021-07-01",
+      "location": "LOCATION_CHANGE_BEFORE_RUNNING",
+      "identity": {
+        "type": "SystemAssigned"
+      },
+      "properties": {
+        "networkAcls": {
+          "defaultAction": "Allow"
+        }
+      },
+      "dependsOn": [],
+      "sku": {
+        "name": "Standard",
+        "capacity": "1"
+      },
+      "tags": {}
+    }
+  ],
+  "outputs": {}
+}
